@@ -1,4 +1,4 @@
-<script src="header.js"></script>
+<script src="incule.js"></script><div clarotm-html="header.html"></div><script>includeHTML();</script>
 <title>وبلاگ ایمن کاران وحدت</title>
 
 <body>
@@ -10,7 +10,7 @@
             natsort($files);
             foreach ($files as $file)
 
-                echo '<a class="btn btn-white mx-1 my-2 border-1 border-bottom" href="' . $file . '" target="_blank" rel="nofollow">' .str_replace(".html"," ",$file). '</a>' . PHP_EOL;
+                echo '<a class="btn btn-white mx-1 my-2 border-1 border-bottom" href="' . $file . '" rel="follow">' .str_replace(".html"," ",$file). '</a>' . PHP_EOL;
 
             ?>
             </ul>
